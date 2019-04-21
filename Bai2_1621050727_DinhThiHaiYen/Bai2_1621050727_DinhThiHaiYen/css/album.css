@@ -1,0 +1,24 @@
+﻿.title {
+    background-color: #04978b;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.img-size {
+    width: 350px;
+    height: 200px;
+}
+
+.img-hover figure img {
+    transition: .3s ease-in-out;
+}
+
+.img-hover figure:hover img {
+    transform: scale(1.3);
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}

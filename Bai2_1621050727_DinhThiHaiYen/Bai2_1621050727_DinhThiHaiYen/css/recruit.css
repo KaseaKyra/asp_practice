@@ -1,0 +1,68 @@
+﻿body {
+    font-family: arial;
+    background-color: #b1def2;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+/*BANNER*/
+.img-banner {
+    width: 30%;
+    height: 30%;
+}
+
+.menu-color {
+    color: #000066;
+}
+
+.color1 {
+    color: #EE2020;
+}
+
+.color2 {
+    color: #324a61;
+}
+
+.color3 {
+    color: #000;
+}
+
+.fw {
+    font-weight: 700;
+}
+
+.recruit-content {
+    background-color: #fff;
+}
+
+    .recruit-content div {
+        border-bottom: 1px dashed #dcddd6;
+    }
+
+.icon-color {
+    color: #687887;
+    font-size: 60%;
+}
+
+.col-left {
+    font-size: 0.8em;
+}
+
+.custom-border {
+    border-left: 1px solid #dfe0e4;
+    border-bottom: 1px solid #dfe0e4;
+    border-right: 1px solid #dfe0e4;
+    border-radius: 0 0 5% 5%;
+}
+
+.img-content {
+    width: 150%;
+    height: 500px;
+}
+
+.mar {
+    margin 0: -15px;
+}

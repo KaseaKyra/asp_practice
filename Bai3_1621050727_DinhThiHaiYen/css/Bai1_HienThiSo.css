@@ -1,0 +1,18 @@
+﻿.b1-title {
+    color: yellow;
+}
+
+.b1-quantity {
+    font-size: 50px;
+    color: red;
+}
+
+.b1-listbox {
+    height: 200px;
+    width: 300px;
+}
+
+body {
+    background-color: gray;
+    text-align: center;
+}
