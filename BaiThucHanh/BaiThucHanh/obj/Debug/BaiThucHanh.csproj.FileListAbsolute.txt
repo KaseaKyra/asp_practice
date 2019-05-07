@@ -1,0 +1,2 @@
+D:\asp.net\bai thuc hanh\BaiThucHanh\BaiThucHanh\obj\Debug\BaiThucHanh.csprojAssemblyReference.cache
+D:\asp.net\bai thuc hanh\BaiThucHanh\BaiThucHanh\obj\Debug\BaiThucHanh.csproj.CoreCompileInputs.cache
