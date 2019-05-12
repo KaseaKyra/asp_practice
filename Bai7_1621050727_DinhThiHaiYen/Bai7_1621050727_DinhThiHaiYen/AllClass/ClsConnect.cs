@@ -32,5 +32,18 @@ namespace Bai7_1621050727_DinhThiHaiYen.AllClass
                 con.Dispose();
             }
         }
+
+        public int executeScalar(string sql, SqlCommand sqlCommand)
+        {
+            sqlCommand = new SqlCommand(sql, con);
+            int result = (int)sqlCommand.ExecuteScalar();
+            return result;
+        }
+
+        public SqlDataReader executeQuery(string sql, SqlCommand sqlCommand)
+        {
+            sqlCommand = new SqlCommand(sql, con);
+            return sqlCommand.ExecuteReader();
+        }
     }
 }

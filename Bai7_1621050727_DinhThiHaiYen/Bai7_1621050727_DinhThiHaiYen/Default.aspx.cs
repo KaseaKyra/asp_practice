@@ -13,5 +13,30 @@ namespace Bai7_1621050727_DinhThiHaiYen
         {
 
         }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            string username = txbUsername.Text.Trim();
+            string password = txbPassword.Text.Trim();
+
+            if (username == "admin" && password == "admin")
+            {
+                // dang nhap thanh cong
+                Response.Redirect("~/Home.aspx?username=" + username + "&password=" + password);
+
+            }
+            else
+            {
+                // khong dung
+                //lblInform.Text = "TÊN ĐĂNG NHẬP HOẶC MẬT KHẨU KHÔNG ĐÚNG";
+            }
+        }
+
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+            txbPassword.Text = "";
+            txbUsername.Text = "";
+            txbUsername.Focus();
+        }
     }
 }
